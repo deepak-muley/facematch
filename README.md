@@ -8,10 +8,6 @@ virtualenv venv27
 
 . ./venv27/bin/activate
 
-git clone https://github.com/deepak-muley/facematch.git
-
-cd facematch
-
 pip install -r requirements.txt
 
 export PYTHONPATH=$PYTHONPATH:$(pwd)
