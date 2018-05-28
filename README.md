@@ -10,3 +10,4 @@ cd facematch
 pip install -r requirements.txt
 export PYTHONPATH=$PYTHONPATH:$(pwd)
 python face_detect_demo.py --img=images/faces.jpg
+
